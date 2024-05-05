@@ -35,7 +35,6 @@ public class MainActivity extends AppCompatActivity {
         tvName.setText(user.name);
         tvDescription.setText(user.description);
         button.setText("Follow");
-
         button.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
